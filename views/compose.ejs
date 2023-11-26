@@ -1,0 +1,15 @@
+<%- include("partials/header")%>
+
+<h1 class="mtblr">Compose</h1>
+
+<form class="mtblr" action="/compose" method="post">
+    <div class="form-group">
+        <label>Title</label>
+        <input type="text" class="form-control" name="postTitle" placeholder="Title">
+        <label>Post</label>
+        <textarea class="form-control mb-3" name="postEntry" rows="5"></textarea>
+    </div>
+    <button class="btn btn-primary" type="submit">Compose</button>
+</form>
+
+<%- include("partials/footer")%>

@@ -1,0 +1,8 @@
+.mtblr{
+    margin: 1.5rem 15%;
+}
+.trun{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
