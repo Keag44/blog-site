@@ -11,7 +11,6 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
 
 const url = "mongodb+srv://Keag44:"+process.env.USER_CLUSTER_PWD+"@cluster0.qbvffeu.mongodb.net/blogSiteDB";
-console.log(url);
 mongoose.connect(url);
 
 const contentSchema = mongoose.Schema({
